@@ -408,9 +408,9 @@ const DB = {
       {
         id: 11,
         titulo: 'Cursos Gratuitos para alavancar sua carreira',
-        descricao: 'Descubra quais são os 6 empregos em alta no mercado de trabalho e conheça as profissões que estão ganhando destaque em áreas como tecnologia, saúde, finanças e engenharia. Veja tendências, oportunidades e como se preparar para conquistar espaço nas carreiras mais promissoras de 2026.',
+        descricao: 'Impulsione sua carreira com cursos gratuitos e desenvolva habilidades valorizadas pelo mercado.',
         categoria: 'Dicas',
-        icone: '🎓💡',
+        icone: '🚀 📚',
         cor: 'cat-dicas',
         destaque: false,
         dataPublicacao: '2026-04-28',
