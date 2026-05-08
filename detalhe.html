@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Artigo completo do Jovem Lab." />
+  <title>Artigo | Jovem Lab</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ========== HEADER ========== -->
+  <header class="site-header" role="banner">
+    <nav class="nav-container" aria-label="Navegação principal">
+      <a href="index.html" class="nav-logo" aria-label="Jovem Lab – página inicial">
+        <img src="jovem-lab/assets/images/LogoSitesf.png" alt="Jovem Lab" class="logo-img">
+      </a>
+      <ul class="nav-links" id="nav-links" role="list">
+        <li><a href="index.html"     class="nav-link">Início</a></li>
+        <li><a href="conteudos.html" class="nav-link">Conteúdos</a></li>
+        <li><a href="cadastro.html"  class="nav-link nav-cta">Cadastro</a></li>
+      </ul>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- ========== HERO DO ARTIGO ========== -->
+  <div class="detalhe-hero">
+    <div class="detalhe-inner">
+      <!-- Breadcrumb -->
+      <nav class="detalhe-breadcrumb" aria-label="Trilha de navegação">
+        <a href="index.html">Início</a>
+        <span>›</span>
+        <a href="conteudos.html">Conteúdos</a>
+        <span>›</span>
+        <span id="detalhe-categoria-breadcrumb">Artigo</span>
+      </nav>
+
+      <span class="detalhe-categoria" id="detalhe-categoria">Categoria</span>
+      <h1 class="detalhe-titulo" id="detalhe-titulo">Carregando...</h1>
+      <div class="detalhe-meta">
+        <span id="detalhe-data">📅 —</span>
+        <span id="detalhe-tempo">🕐 — de leitura</span>
+        <span id="detalhe-autor">✍️ —</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========== CORPO DO ARTIGO ========== -->
+  <main>
+    <article class="detalhe-content" aria-labelledby="detalhe-titulo">
+      <div class="detalhe-article">
+
+        <!-- Corpo do artigo (preenchido pelo JS) -->
+        <div id="detalhe-corpo">
+          <p>Carregando conteúdo...</p>
+        </div>
+
+        <!-- Vídeo (preenchido pelo JS se disponível) -->
+        <div id="detalhe-video"></div>
+
+      </div>
+    </article>
+
+    <!-- ========== CONTEÚDOS RELACIONADOS ========== -->
+    <section
+      id="relacionados-section"
+      hidden
+      class="section"
+      style="background:var(--cinza-bg);"
+      aria-labelledby="titulo-relacionados"
+    >
+      <div class="section-inner">
+        <header class="section-header" style="margin-bottom:36px;">
+          <span class="section-eyebrow">Continue lendo</span>
+          <h2 class="section-title" id="titulo-relacionados">Conteúdos relacionados</h2>
+        </header>
+        <div class="cards-grid" id="cards-relacionados" role="list"></div>
+        <div style="text-align:center; margin-top:40px;">
+          <a href="conteudos.html" class="btn btn-azul">← Ver todos os conteúdos</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="footer-inner">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <span class="logo-text">Jovem<span>Lab</span></span>
+          <p>Blog educacional voltado para jovens em busca do primeiro emprego.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Navegação</h4>
+          <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="conteudos.html">Conteúdos</a></li>
+            <li><a href="cadastro.html">Cadastro</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Categorias</h4>
+          <ul>
+            <li><a href="conteudos.html">🎯 Dicas de Entrevistas</a></li>
+            <li><a href="conteudos.html">🚀 Primeiro Emprego</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Jovem Lab. Todos os direitos reservados.</span>
+        <span>Feito para jovens talentos</span>
+      </div>
+    </div>
+  </footer>
+
+  <button class="scroll-top" id="scroll-top" aria-label="Rolar ao topo">↑</button>
+
+  <script src="js/storage.js"></script>
+  <script src="js/cards.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Script extra apenas nesta página: atualiza breadcrumb após JS carregar -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // Sincroniza breadcrumb com categoria após inicialização
+      setTimeout(() => {
+        const cat = document.getElementById('detalhe-categoria')?.textContent;
+        const bc  = document.getElementById('detalhe-categoria-breadcrumb');
+        if (bc && cat) bc.textContent = cat;
+      }, 100);
+    });
+  </script>
+</body>
+</html>

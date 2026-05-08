@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Jovem Lab — dicas de emprego, entrevistas e carreira para quem busca o primeiro trabalho." />
+  <title>Jovem Lab — Seu Primeiro Emprego Começa Aqui</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ========== HEADER ========== -->
+  <header class="site-header" role="banner">
+    <nav class="nav-container" aria-label="Navegação principal">
+      <!-- Logo -->
+      <a href="index.html" class="nav-logo" aria-label="Jovem Lab – página inicial">
+        <img src="jovem-lab/assets/images/LogoSitesf.png" alt="Jovem Lab" class="logo-img">
+      </a>
+
+      <!-- Links -->
+      <ul class="nav-links" id="nav-links" role="list">
+        <li><a href="index.html"     class="nav-link">Início</a></li>
+        <li><a href="conteudos.html" class="nav-link">Conteúdos</a></li>
+        <li><a href="cadastro.html"  class="nav-link nav-cta">Cadastro</a></li>
+      </ul>
+
+      <!-- Botão mobile -->
+      <button class="nav-toggle" id="nav-toggle" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero" aria-labelledby="hero-titulo">
+    <div class="hero-inner">
+      <div class="hero-texto">
+        <div class="hero-badge animate-up delay-1">Para jovens em busca do primeiro emprego</div>
+        <h1 class="hero-title animate-up delay-2" id="hero-titulo">
+          Seu <span class="destaque">primeiro emprego</span><br>
+          começa aqui
+        </h1>
+        <p class="hero-desc animate-up delay-3">
+          Conteúdos práticos sobre vagas, entrevistas e carreira.
+          Tudo o que você precisa saber para dar o primeiro passo no mercado de trabalho.
+        </p>
+        <div class="hero-actions animate-up delay-4">
+          <a href="conteudos.html" class="btn btn-laranja">
+            📚 Ver conteúdos
+          </a>
+          <a href="cadastro.html" class="btn btn-outline">
+            Criar conta grátis →
+          </a>
+        </div>
+      </div>
+
+      <!-- Card visual decorativo -->
+      <div class="hero-visual animate-up delay-5" aria-hidden="true">
+        <div class="hero-card-preview">
+          <div class="preview-stats">
+            <div class="stat-box">
+              <span class="stat-num">6+</span>
+              <span class="stat-label">Artigos</span>
+            </div>
+            <div class="stat-box">
+              <span class="stat-num">3</span>
+              <span class="stat-label">Categorias</span>
+            </div>
+            <div class="stat-box">
+              <span class="stat-num">100%</span>
+              <span class="stat-label">Gratuito</span>
+            </div>
+            <div class="stat-box">
+              <span class="stat-num">🪧</span>
+              <span class="stat-label">Com Slides</span>
+            </div>
+          </div>
+          <div class="preview-tags">
+            <span class="tag">🎯 Entrevistas</span>
+            <span class="tag">🚀 Carreira</span>
+            <span class="tag">📄 Currículo</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== BARRA DE STATS ========== -->
+  <div class="stats-bar" aria-label="Números do Jovem Lab">
+    <div class="stats-bar-inner">
+      <div class="stat-item">
+        <span class="num">6+</span>
+        <span class="lbl">Artigos publicados</span>
+      </div>
+      <div class="stat-item">
+        <span class="num">3</span>
+        <span class="lbl">Categorias</span>
+      </div>
+      <div class="stat-item">
+        <span class="num">100%</span>
+        <span class="lbl">Conteúdo gratuito</span>
+      </div>
+      <div class="stat-item">
+        <span class="num">📱</span>
+        <span class="lbl">Responsivo</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========== SEÇÃO DE CARDS ========== -->
+  <main>
+    <section class="section" aria-labelledby="titulo-conteudos">
+      <div class="section-inner">
+        <header class="section-header">
+          <span class="section-eyebrow">Conteúdos em destaque</span>
+          <h2 class="section-title" id="titulo-conteudos">
+            O que você vai aprender hoje?
+          </h2>
+          <p class="section-sub">
+            Artigos práticos com dicas reais para ajudar você a entrar no mercado de trabalho com confiança.
+          </p>
+        </header>
+
+        <!-- Cards gerados dinamicamente pelo cards.js -->
+        <div class="cards-grid" id="cards-home" role="list" aria-label="Artigos em destaque">
+          <!-- Skeleton loading enquanto JS carrega -->
+          <div class="card" aria-hidden="true">
+            <div class="card-thumb skeleton"></div>
+            <div class="card-body">
+              <div class="skeleton" style="height:20px;margin-bottom:10px;border-radius:4px;"></div>
+              <div class="skeleton" style="height:14px;margin-bottom:6px;border-radius:4px;"></div>
+              <div class="skeleton" style="height:14px;width:70%;border-radius:4px;"></div>
+            </div>
+          </div>
+        </div>
+
+        <div style="text-align:center; margin-top:48px;">
+          <a href="conteudos.html" class="btn btn-azul">Ver todos os conteúdos →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SEÇÃO CTA ========== -->
+    <section class="section" style="background:var(--azul-light); padding:60px 24px;" aria-labelledby="cta-titulo">
+      <div class="section-inner" style="text-align:center; max-width:640px;">
+        <span class="section-eyebrow">Comece agora</span>
+        <h2 class="section-title" id="cta-titulo">
+          Pronto para dar o<br>primeiro passo?
+        </h2>
+        <p class="section-sub" style="margin-bottom:32px;">
+          Crie sua conta gratuita, acesse todos os conteúdos e prepare-se para o mercado de trabalho.
+        </p>
+        <a href="cadastro.html" class="btn btn-laranja">Criar conta agora — é grátis!</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="footer-inner">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <span class="logo-text">Jovem<span>Lab</span></span>
+          <p>Blog educacional voltado para jovens em busca do primeiro emprego. Conteúdo prático sobre vagas, entrevistas e carreira.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Navegação</h4>
+          <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="conteudos.html">Conteúdos</a></li>
+            <li><a href="cadastro.html">Cadastro</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Categorias</h4>
+          <ul>
+            <li><a href="conteudos.html">🎯 Dicas de Entrevistas</a></li>
+            <li><a href="conteudos.html">🚀 Primeiro Emprego</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Jovem Lab. Aprendizagem Senac 2026.08.53</span>
+        <span>Feito <span class="heart"></span> para jovens talentos</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Botão rolar ao topo -->
+  <button class="scroll-top" id="scroll-top" aria-label="Rolar ao topo">↑</button>
+
+  <!-- Scripts — ordem importa: DB → Cards → Main -->
+  <script src="js/storage.js"></script>
+  <script src="js/cards.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

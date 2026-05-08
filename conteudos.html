@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Todos os conteúdos do Jovem Lab — vagas, entrevistas e dicas de primeiro emprego." />
+  <title>Conteúdos | Jovem Lab</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ========== HEADER ========== -->
+  <header class="site-header" role="banner">
+    <nav class="nav-container" aria-label="Navegação principal">
+      <a href="index.html" class="nav-logo" aria-label="Jovem Lab – página inicial">
+        <img src="jovem-lab/assets/images/LogoSitesf.png" alt="Jovem Lab" class="logo-img">
+      </a>
+      <ul class="nav-links" id="nav-links" role="list">
+        <li><a href="index.html"     class="nav-link">Início</a></li>
+        <li><a href="conteudos.html" class="nav-link">Conteúdos</a></li>
+        <li><a href="cadastro.html"  class="nav-link nav-cta">Cadastro</a></li>
+      </ul>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- ========== HERO DA PÁGINA ========== -->
+  <section class="conteudos-hero" aria-labelledby="titulo-pagina">
+    <h1 id="titulo-pagina">📚 Todos os Conteúdos</h1>
+    <p>Artigos, dicas e guias para impulsionar sua carreira desde o início.</p>
+  </section>
+
+  <!-- ========== BARRA DE BUSCA ========== -->
+  <div class="search-bar-wrap" role="search" aria-label="Buscar conteúdos">
+    <div class="search-bar">
+      <label for="search-input" class="sr-only">Buscar conteúdos</label>
+      <input
+        type="search"
+        id="search-input"
+        placeholder="Buscar artigos, dicas, temas..."
+        aria-label="Campo de busca"
+      />
+      <button id="search-btn" aria-label="Executar busca">🔍 Buscar</button>
+    </div>
+  </div>
+
+  <main>
+    <section class="section" style="padding-top: 24px;" aria-labelledby="titulo-lista">
+      <div class="section-inner">
+
+        <!-- Filtros de categoria -->
+        <nav class="filtros" aria-label="Filtrar por categoria">
+          <button class="filtro-btn ativo" data-cat="todos"         aria-pressed="true" >Todos</button>
+          <button class="filtro-btn"       data-cat="Dicas"         aria-pressed="false">💼 Dicas</button>
+          <button class="filtro-btn"       data-cat="Entrevistas"   aria-pressed="false">🎯 Entrevistas</button>
+          <button class="filtro-btn"       data-cat="Curriculo" aria-pressed="false">🚀 Curriculo</button>
+        </nav>
+
+        <!-- Grade de cards -->
+        <div class="cards-grid" id="cards-conteudos" role="list" aria-label="Lista de conteúdos">
+          <!-- Preenchido dinamicamente pelo JS -->
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="footer-inner">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <span class="logo-text">Jovem<span>Lab</span></span>
+          <p>Blog educacional voltado para jovens em busca do primeiro emprego.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Navegação</h4>
+          <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="conteudos.html">Conteúdos</a></li>
+            <li><a href="cadastro.html">Cadastro</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Categorias</h4>
+          <ul>
+            <li><a href="conteudos.html">🎯 Dicas de Entrevistas</a></li>
+            <li><a href="conteudos.html">🚀 Primeiro Emprego</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Jovem Lab. Aprendizagem Senac 2026.08.53</span>
+        <span>Feito para jovens talentos</span>
+      </div>
+    </div>
+  </footer>
+
+  <button class="scroll-top" id="scroll-top" aria-label="Rolar ao topo">↑</button>
+
+  <script src="js/storage.js"></script>
+  <script src="js/cards.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

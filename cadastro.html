@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Cadastre-se gratuitamente no Jovem Lab e acesse todos os conteúdos de carreira." />
+  <title>Cadastro | Jovem Lab</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ========== HEADER ========== -->
+  <header class="site-header" role="banner">
+    <nav class="nav-container" aria-label="Navegação principal">
+      <a href="index.html" class="nav-logo" aria-label="Jovem Lab – página inicial">
+        <img src="jovem-lab/assets/images/LogoSitesf.png" alt="Jovem Lab" class="logo-img">
+      </a>
+      <ul class="nav-links" id="nav-links" role="list">
+        <li><a href="index.html"     class="nav-link">Início</a></li>
+        <li><a href="conteudos.html" class="nav-link">Conteúdos</a></li>
+        <li><a href="cadastro.html"  class="nav-link nav-cta">Cadastro</a></li>
+      </ul>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- ========== FORMULÁRIO DE CADASTRO ========== -->
+  <main class="cadastro-section" role="main">
+    <div class="cadastro-box animate-up" style="opacity:0;">
+
+      <!-- Ícone decorativo -->
+      <div class="cadastro-icon" aria-hidden="true">🎯</div>
+
+      <h1>Crie sua conta</h1>
+      <p class="sub">Acesse todos os conteúdos gratuitamente</p>
+
+      <!-- Alerta de retorno (sucesso / erro) -->
+      <div id="alert-cadastro" class="alert" role="alert" aria-live="polite"></div>
+
+      <!-- Formulário -->
+      <form id="form-cadastro" novalidate aria-label="Formulário de cadastro">
+
+        <!-- Nome -->
+        <div class="form-group">
+          <label class="form-label" for="campo-nome">Nome completo</label>
+          <input
+            type="text"
+            id="campo-nome"
+            class="form-input"
+            placeholder="Seu nome completo"
+            autocomplete="name"
+            required
+            aria-required="true"
+            aria-describedby="erro-nome"
+          />
+          <span id="erro-nome" class="form-error" role="alert"></span>
+        </div>
+
+        <!-- E-mail -->
+        <div class="form-group">
+          <label class="form-label" for="campo-email">E-mail</label>
+          <input
+            type="email"
+            id="campo-email"
+            class="form-input"
+            placeholder="seu@email.com"
+            autocomplete="email"
+            required
+            aria-required="true"
+            aria-describedby="erro-email"
+          />
+          <span id="erro-email" class="form-error" role="alert"></span>
+        </div>
+
+        <!-- Senha -->
+        <div class="form-group">
+          <label class="form-label" for="campo-senha">Senha</label>
+          <input
+            type="password"
+            id="campo-senha"
+            class="form-input"
+            placeholder="Mínimo 6 caracteres"
+            autocomplete="new-password"
+            required
+            aria-required="true"
+            aria-describedby="erro-senha"
+          />
+          <span id="erro-senha" class="form-error" role="alert"></span>
+        </div>
+
+        <!-- Confirmação de senha -->
+        <div class="form-group">
+          <label class="form-label" for="campo-confirma">Confirmar senha</label>
+          <input
+            type="password"
+            id="campo-confirma"
+            class="form-input"
+            placeholder="Repita a senha"
+            autocomplete="new-password"
+            required
+            aria-required="true"
+            aria-describedby="erro-confirma"
+          />
+          <span id="erro-confirma" class="form-error" role="alert"></span>
+        </div>
+
+        <!-- Botão submit -->
+        <button type="submit" class="btn-form">
+          Criar conta gratuita 🚀
+        </button>
+      </form>
+
+      <p class="form-footer">
+        Já tem conta? <a href="index.html">Voltar ao início</a>
+      </p>
+
+      <!-- Lista de usuários cadastrados (fins didáticos) -->
+      <div id="secao-usuarios" class="usuarios-lista" hidden aria-label="Usuários cadastrados">
+        <h3>👥 Usuários cadastrados (LocalStorage)</h3>
+        <ul id="lista-usuarios"></ul>
+      </div>
+    </div>
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="footer-inner">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <span class="logo-text">Jovem<span>Lab</span></span>
+          <p>Blog educacional voltado para jovens em busca do primeiro emprego.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Navegação</h4>
+          <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="conteudos.html">Conteúdos</a></li>
+            <li><a href="cadastro.html">Cadastro</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Sobre</h4>
+          <ul>
+            <li><a href="conteudos.html">Todos os artigos</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Jovem Lab. Aprendizagem Senac 2026.08.53</span>
+        <span>Feito para jovens talentos</span>
+      </div>
+    </div>
+  </footer>
+
+  <button class="scroll-top" id="scroll-top" aria-label="Rolar ao topo">↑</button>
+
+  <!-- Anima o box ao carregar -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const box = document.querySelector('.cadastro-box');
+      if (box) setTimeout(() => { box.style.opacity = '1'; }, 100);
+    });
+  </script>
+
+  <script src="js/storage.js"></script>
+  <script src="js/cards.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
