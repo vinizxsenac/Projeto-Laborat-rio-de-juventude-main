@@ -215,7 +215,7 @@ const DB = {
         conteudo: `
         <div class="slide-vinicius"  
           <a href="https://produtividadeemocional.com.br/controle-emocional-no-trabalho/" target="_blank">
-          <img src="jovem-lab/assets/images/Slideviniciusg.png">
+          <img src="jovem-lab/assets/images/slideviniciusg.jpg">
           </a>
         </div>
           `
@@ -478,73 +478,86 @@ const DB = {
         tempoLeitura: '10 min',
         autor: 'Turma de Aprendizagem 2026.08.53',
         conteudo: `
-        <div class="Foto-autores">
-          <div class="kamilly">
-            <img src="jovem-lab/assets/images/kamillyfoto.jpeg">
-          </div>
-          <div class="rebeca">
-            <img src="jovem-lab/assets/images/rebecafoto.jpeg">
-          </div>
-          <div class="arnold">
-            <img src="jovem-lab/assets/images/arnoldfoto.jpeg">
-          </div>
-          <div class="itallo">
-            <img src="jovem-lab/assets/images/itallofoto.jpg">
-          </div>
-          <div class="kalebe">
-            <img src="jovem-lab/assets/images/kalebefoto.jpg">
-          </div>
-          <div class="davi">
-            <img src="jovem-lab/assets/images/davifoto.webp">
-          </div>
-          <div class="vivian">
-            <img src="jovem-lab/assets/images/vivianfoto.jpg">
-          </div>
-          <div class="bruna">
-            <img src="jovem-lab/assets/images/brunafoto.jpeg">
-          </div>
-          <div class="ester">
-            <img src="jovem-lab/assets/images/esterfoto.jpeg">
-          </div>
-          <div class="mariaclara">
-            <img src="jovem-lab/assets/images/mariaclarafoto.jpeg">
-          </div>
-          <div class="vinicius">
-            <img src="jovem-lab/assets/images/viniciusfoto.webp">
-          </div>
-          <div class="viniciusg">
-            <img src="jovem-lab/assets/images/viniciusg.webp">
-          </div>
-          <div class="amandac">
-            <img src="jovem-lab/assets/images/amandac.jpg">
-          </div>
-          <div class="gabrielle">
-            <img src="jovem-lab/assets/images/gabriellefoto.jpg">
-          </div>
-          <div class="amandav">
-            <img src="jovem-lab/assets/images/amandav.jpg">
-          </div>
-          <div class="gabryel">
-            <img src="jovem-lab/assets/images/gabryelfoto.png">
-          </div>
-          <div class="analuiza">
-            <img src="jovem-lab/assets/images/analuizafoto.webp">
-          </div>
-          <div class="anaclara">
-            <img src="jovem-lab/assets/images/anaclarafoto.jpg">
-          </div>
-          <div class="victor">
-            <img src="jovem-lab/assets/images/victorfoto.jpeg">
-          </div>
-          <div class="lucas">
-            <img src="jovem-lab/assets/images/lucasfoto.jpeg">
-          </div>
-          <div class="luiz">
-            <img src="jovem-lab/assets/images/luizfoto.jpg">
-          </div>
-          <div class="isaac">
-            <img src="jovem-lab/assets/images/isaacfoto.jpeg">
-          </div>
+        <section class="equipe"
+          <div class="autores">
+            <div class="kamilly">
+              <img src="jovem-lab/assets/images/kamillyfoto.jpeg" alt="Kamilly">
+                <div class="info-kamilly"
+                  <h2>Dicas de sites para cursos online para acrescentar no currículo</h2>
+                </div>
+            </div>
+            <div class="rebeca">
+              <div class="info-rebeca"  
+                <img src="jovem-lab/assets/images/rebecafoto.jpeg">
+                <h2>Cursos que as empresas mais pedem</h2>
+              </div>
+            </div>
+            <div class="arnold">
+              <div class="info-arnold"
+                <img src="jovem-lab/assets/images/arnoldfoto.jpeg">
+                <h2>Dicas de ética no trabalho</h2>
+              </div>
+            </div>
+            <div class="itallo">
+                <div class="info-itallo"
+                  <img src="jovem-lab/assets/images/itallofoto.jpg">
+                  <h2>Como encontrar o primeiro emprego e Vídeo de apresentação</h2>
+                </div>
+            </div>
+            <div class="kalebe">
+              <img src="jovem-lab/assets/images/kalebefoto.jpg">
+            </div>
+            <div class="davi">
+              <img src="jovem-lab/assets/images/davifoto.webp">
+            </div>
+            <div class="vivian">
+              <img src="jovem-lab/assets/images/vivianfoto.jpg">
+            </div>
+            <div class="bruna">
+              <img src="jovem-lab/assets/images/brunafoto.jpeg">
+            </div>
+            <div class="ester">
+              <img src="jovem-lab/assets/images/esterfoto.jpeg">
+            </div>
+            <div class="mariaclara">
+              <img src="jovem-lab/assets/images/mariaclarafoto.jpeg">
+            </div>
+            <div class="vinicius">
+              <img src="jovem-lab/assets/images/viniciusfoto.webp">
+            </div>
+            <div class="viniciusg">
+              <img src="jovem-lab/assets/images/viniciusg.webp">
+            </div>
+            <div class="amandac">
+              <img src="jovem-lab/assets/images/amandac.jpg">
+            </div>
+            <div class="gabrielle">
+              <img src="jovem-lab/assets/images/gabriellefoto.jpg">
+            </div>
+            <div class="amandav">
+              <img src="jovem-lab/assets/images/amandav.jpg">
+            </div>
+            <div class="gabryel">
+              <img src="jovem-lab/assets/images/gabryelfoto.png">
+            </div>
+            <div class="analuiza">
+              <img src="jovem-lab/assets/images/analuizafoto.webp">
+            </div>
+            <div class="anaclara">
+              <img src="jovem-lab/assets/images/anaclarafoto.jpg">
+            </div>
+            <div class="victor">
+              <img src="jovem-lab/assets/images/victorfoto.jpeg">
+            </div>
+            <div class="lucas">
+                <img src="jovem-lab/assets/images/lucasfoto.jpeg">
+            </div>
+            <div class="luiz">
+              <img src="jovem-lab/assets/images/luizfoto.jpg">
+            </div>
+            <div class="isaac">
+              <img src="jovem-lab/assets/images/isaacfoto.jpeg">
+            </div>
         `
       },
     ];
