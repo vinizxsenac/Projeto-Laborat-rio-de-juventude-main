@@ -233,7 +233,7 @@ const DB = {
         autor: 'Maria Clara e Ytallo',
         conteudo: `
         <div class="slide-ytallo">  
-          <img src="jovem-lab/assets/images/Slidemariaclaraytallo.png">
+          <img src="jovem-lab/assets/images/slidemariaclaraeitallo.png">
           <a href="https://br.linkedin.com/" class="btn-link link1">Linkedin</a>
           <a href="https://login.infojobs.com.br/" class="btn-link link2">Info Jobs</a>
           <a href="https://www.catho.com.br/" class="btn-link link3">Catho</a>
@@ -253,7 +253,7 @@ const DB = {
         destaque: false,
         dataPublicacao: '2026-04-28',
         tempoLeitura: '7 min',
-        autor: 'Davi Teixeira Granjeriro',
+        autor: 'Davi Teixeira Granjeiro e Gabryel Barbosa Ramos e Silva',
         conteudo: `
         <div class="slides-davi">  
           <div class="slide-davi1">
@@ -447,6 +447,97 @@ const DB = {
            <div class="slide-kamilly8">
             <img src="jovem-lab/assets/images/kamilly8.jpg">
           </div>
+        `
+      },
+      {
+        id: 12,
+        titulo: 'Autores do site',
+        descricao: 'Somos uma equipe apaixonada por tecnologia, inovação e desenvolvimento profissional, dedicada a criar soluções que aproximam pessoas das melhores oportunidades no mercado de trabalho. Nosso objetivo é tornar a empregabilidade mais acessível, oferecendo informações, recursos e ferramentas que ajudam candidatos a desenvolver habilidades, encontrar vagas e crescer profissionalmente.',
+        categoria: 'Autores',
+        icone: '🎓🏆',
+        cor: 'cat-dicas',
+        destaque: false,
+        dataPublicacao: '2026-05-14',
+        tempoLeitura: '10 min',
+        autor: 'Turma de Aprendizagem 2026.08.53',
+        conteudo: `
+        `
+      },
+      {
+        id: 13,
+        titulo: 'Autores do site',
+        descricao: 'Somos uma equipe apaixonada por tecnologia, inovação e desenvolvimento profissional, dedicada a criar soluções que aproximam pessoas das melhores oportunidades no mercado de trabalho. Nosso objetivo é tornar a empregabilidade mais acessível, oferecendo informações, recursos e ferramentas que ajudam candidatos a desenvolver habilidades, encontrar vagas e crescer profissionalmente.',
+        categoria: 'Autores',
+        icone: '🎓🏆',
+        cor: 'cat-dicas',
+        destaque: false,
+        dataPublicacao: '2026-05-14',
+        tempoLeitura: '10 min',
+        autor: 'Turma de Aprendizagem 2026.08.53',
+        conteudo: `
+        <div class="Foto-autores">
+          <div class="kamilly">
+            <img src="jovem-lab/assets/images/kamillyfoto.jpeg">
+          </div>
+          <div class="rebeca">
+            <img src="jovem-lab/assets/images/rebecafoto.jpeg">
+          </div>
+          <div class="arnold">
+            <img src="jovem-lab/assets/images/arnoldfoto.jpeg">
+          </div>
+          <div class="itallo">
+            <img src="jovem-lab/assets/images/itallofoto.jpg">
+          </div>
+          <div class="kalebe">
+            <img src="jovem-lab/assets/images/kalebefoto.jpg">
+          </div>
+          <div class="davi">
+            <img src="jovem-lab/assets/images/davifoto.webp">
+          </div>
+          <div class="vivian">
+            <img src="jovem-lab/assets/images/vivianfoto.jpg">
+          </div>
+          <div class="bruna">
+            <img src="jovem-lab/assets/images/brunafoto.jpeg">
+          </div>
+          <div class="ester">
+            <img src="jovem-lab/assets/images/esterfoto.jpeg">
+          </div>
+          <div class="mariaclara">
+            <img src="jovem-lab/assets/images/mariaclarafoto.jpeg">
+          </div>
+          <div class="vinicius">
+            <img src="jovem-lab/assets/images/viniciusfoto.webp">
+          </div>
+          <div class="viniciusg">
+            <img src="jovem-lab/assets/images/viniciusg.webp">
+          </div>
+          <div class="amandac">
+            <img src="jovem-lab/assets/images/amandac.jpg">
+          </div>
+          <div class="gabrielle">
+            <img src="jovem-lab/assets/images/gabriellefoto.jpg">
+          </div>
+          <div class="amandav">
+            <img src="jovem-lab/assets/images/amandavfoto.jpg">
+          </div>
+          <div class="gabryel">
+            <img src="jovem-lab/assets/images/gabryelfoto.png">
+          </div>
+          <div class="analuiza">
+            <img src="jovem-lab/assets/images/analuizafoto.webp">
+          </div>
+          <div class="anaclara">
+            <img src="jovem-lab/assets/images/anaclarafoto.webp">
+          </div>
+          <div class="victor">
+            <img src="jovem-lab/assets/images/victorfoto.jpeg">
+          </div>
+          <div class="lucas">
+            <img src="jovem-lab/assets/images/lucasfoto.jpeg">
+          </div>
+
+               
         `
       },
     ];

@@ -1224,3 +1224,6 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 text-align: justify;
 text-justify: inter-word;
 }
+.slide-lucas{
+  text-align: justify;
+}
