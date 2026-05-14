@@ -106,7 +106,7 @@ const DB = {
       // ---- VAGAS E TRABALHOS --------------------------------
       {
         id: 1,
-        titulo: 'Mentir no Curriculo vale a pena?',
+        titulo: 'Mentir no currículo vale a pena?',
         descricao: 'Há casos em que mentir no currículo é crime, mas não é a regra.',
         categoria: 'Curriculo',
         icone: '📋🎯',
@@ -132,13 +132,13 @@ const DB = {
           <h2>E se eu conseguir o emprego?</h2>
           <p>Outro ponto relevante é o impacto interno dessa prática. Sustentar uma mentira exige esforço constante: a pessoa precisa lembrar do que disse, evitar contradições e, muitas vezes, lidar com tarefas para as quais não está preparada. Isso gera ansiedade, insegurança e estresse, prejudicando o desempenho e o bem-estar no ambiente de trabalho. Em contraste, a honestidade permite que o profissional atue com mais confiança, reconhecendo suas limitações e buscando aprendizado real.</p>
           <a href="https://www.jusbrasil.com.br/artigos/mentir-no-curriculo-e-crime/869996185?msockid=1cd652b61db066c424a4458b19b06d3a" target="_blank">
-          <img src="jovem-lab/assets/images/slidelucas.png" alt="curriculo" style="width:100%; border-radius:10px; margin:20px 0;">
+          <img src="jovem-lab/assets/images/slidelucas.jpg" alt="curriculo" style="width:100%; border-radius:10px; margin:20px 0;">
         </div>  
           `
       },
       {
         id: 2,
-        titulo: 'Dicas de Ética e conduta no mundo do trabalho',
+        titulo: 'Dicas de ética e conduta no mundo do trabalho',
         descricao: "Entenda a importância da ética e da boa conduta no ambiente de trabalho. Saiba como atitudes profissionais, respeito e responsabilidade podem fortalecer sua imagem e abrir portas na sua carreira.",
         categoria: 'Dicas',
         icone: '🧠⚖️',
@@ -306,7 +306,7 @@ const DB = {
       },
       {
         id: 8,
-        titulo: 'Quiz sobre Empregabilidade',
+        titulo: 'Quiz sobre empregabilidade',
         descricao: 'Teste se você está pronto para conquistar seu primeiro emprego e descubra o que o mercado realmente espera de você. Identifique seus pontos fortes, corrija falhas e saia na frente dos concorrentes.',
         categoria: 'Dicas',
         icone: '🧑‍💻 📊',
@@ -389,7 +389,7 @@ const DB = {
       },
       {
         id: 10,
-        titulo: '6 Profissões em Alta',
+        titulo: '6 Profissões em alta',
         descricao: 'Descubra quais são os 6 empregos em alta no mercado de trabalho e conheça as profissões que estão ganhando destaque em áreas como tecnologia, saúde, finanças e engenharia. Veja tendências, oportunidades e como se preparar para conquistar espaço nas carreiras mais promissoras de 2026.',
         categoria: 'Dicas',
         icone: '💼🏆',
@@ -401,13 +401,13 @@ const DB = {
         conteudo: `
         <div class="slideisaac">
           <a href="https://revistadoestudante.com.br/as-10-carreiras-mais-promissoras-para-os-jovens-de-hoje/" target="_blank">
-          <img src="jovem-lab/assets/images/slideisaac.jpg">
+          <img src="jovem-lab/assets/images/slideisaac.png">
         </div>
         `
       },
       {
         id: 11,
-        titulo: 'Cursos Gratuitos para alavancar sua carreira',
+        titulo: 'Cursos gratuitos para alavancar sua carreira',
         descricao: 'Impulsione sua carreira com cursos gratuitos e desenvolva habilidades valorizadas pelo mercado.',
         categoria: 'Dicas',
         icone: '🚀 📚',
@@ -451,16 +451,19 @@ const DB = {
       },
       {
         id: 12,
-        titulo: 'Autores do site',
-        descricao: 'Somos uma equipe apaixonada por tecnologia, inovação e desenvolvimento profissional, dedicada a criar soluções que aproximam pessoas das melhores oportunidades no mercado de trabalho. Nosso objetivo é tornar a empregabilidade mais acessível, oferecendo informações, recursos e ferramentas que ajudam candidatos a desenvolver habilidades, encontrar vagas e crescer profissionalmente.',
-        categoria: 'Autores',
-        icone: '🎓🏆',
-        cor: 'cat-dicas',
+        titulo: 'Orientações sobre processos seletivos',
+        descricao: 'Oferecemos orientações para ajudar candidatos a se prepararem melhor para processos seletivos, com dicas sobre currículo, entrevistas e comportamento profissional. Nosso objetivo é facilitar o caminho para novas oportunidades no mercado de trabalho.',
+        categoria: 'Entrevista',
+        icone: '🎤💬',
+        cor: 'cat-entrevista',
         destaque: false,
         dataPublicacao: '2026-05-14',
-        tempoLeitura: '10 min',
-        autor: 'Turma de Aprendizagem 2026.08.53',
+        tempoLeitura: '2 min',
+        autor: 'Gabrielle ',
         conteudo: `
+        <div class="slide-gabrielle">
+          <img src="jovem-lab/assets/images/slidegabrielle.png">
+        </div>
         `
       },
       {
@@ -469,7 +472,7 @@ const DB = {
         descricao: 'Somos uma equipe apaixonada por tecnologia, inovação e desenvolvimento profissional, dedicada a criar soluções que aproximam pessoas das melhores oportunidades no mercado de trabalho. Nosso objetivo é tornar a empregabilidade mais acessível, oferecendo informações, recursos e ferramentas que ajudam candidatos a desenvolver habilidades, encontrar vagas e crescer profissionalmente.',
         categoria: 'Autores',
         icone: '🎓🏆',
-        cor: 'cat-dicas',
+        cor: 'cat-autores',
         destaque: false,
         dataPublicacao: '2026-05-14',
         tempoLeitura: '10 min',
@@ -519,7 +522,7 @@ const DB = {
             <img src="jovem-lab/assets/images/gabriellefoto.jpg">
           </div>
           <div class="amandav">
-            <img src="jovem-lab/assets/images/amandavfoto.jpg">
+            <img src="jovem-lab/assets/images/amandav.jpg">
           </div>
           <div class="gabryel">
             <img src="jovem-lab/assets/images/gabryelfoto.png">
@@ -528,7 +531,7 @@ const DB = {
             <img src="jovem-lab/assets/images/analuizafoto.webp">
           </div>
           <div class="anaclara">
-            <img src="jovem-lab/assets/images/anaclarafoto.webp">
+            <img src="jovem-lab/assets/images/anaclarafoto.jpg">
           </div>
           <div class="victor">
             <img src="jovem-lab/assets/images/victorfoto.jpeg">
@@ -536,8 +539,12 @@ const DB = {
           <div class="lucas">
             <img src="jovem-lab/assets/images/lucasfoto.jpeg">
           </div>
-
-               
+          <div class="luiz">
+            <img src="jovem-lab/assets/images/luizfoto.jpg">
+          </div>
+          <div class="isaac">
+            <img src="jovem-lab/assets/images/isaacfoto.jpeg">
+          </div>
         `
       },
     ];
