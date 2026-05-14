@@ -462,7 +462,7 @@ const DB = {
         autor: 'Gabrielle ',
         conteudo: `
         <div class="slide-gabrielle">
-          <img src="jovem-lab/assets/images/slidegabrielle.png">
+          <img src="jovem-lab/assets/images/slidegabriele.png">
         </div>
         `
       },
