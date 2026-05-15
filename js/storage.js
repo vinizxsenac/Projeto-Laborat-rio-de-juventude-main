@@ -611,7 +611,8 @@ const DB = {
               <h3>6 Profissões em alta</h3>
             </div>
           </div>
-        `
+        
+          `
       },
     ];
   }
