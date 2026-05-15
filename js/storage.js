@@ -253,7 +253,7 @@ const DB = {
         destaque: false,
         dataPublicacao: '2026-04-28',
         tempoLeitura: '7 min',
-        autor: 'Davi Teixeira Granjeiro e Gabryel Barbosa Ramos e Silva',
+        autor: 'Davi Teixeira Granjeiro, Gabryel Barbosa Ramos e Silva e Rebeca',
         conteudo: `
         <div class="slides-davi">  
           <div class="slide-davi1">
@@ -353,19 +353,19 @@ const DB = {
             <img src="jovem-lab/assets/images/amanda6.jpg">
           </div>
           <div classe="slide-amanda7">
-            <img src="jovem-lab/assets/images/amanda7.jpg">
+            <img src="jovem-lab/assets/images/amanda7.png">
           </div>
           <div classe="slide-amanda8">
-            <img src="jovem-lab/assets/images/amanda8.jpg">
+            <img src="jovem-lab/assets/images/amanda8.png">
           </div>
           <div classe="slide-amanda9">
-            <img src="jovem-lab/assets/images/amanda9.jpg">
+            <img src="jovem-lab/assets/images/amanda9.png">
           </div>
           <div classe="slide-amanda10">
-            <img src="jovem-lab/assets/images/amanda10.jpg">
+            <img src="jovem-lab/assets/images/amanda10.png">
           </div>
           <div classe="slide-amanda11">
-            <img src="jovem-lab/assets/images/amanda11.jpg">
+            <img src="jovem-lab/assets/images/amanda11.png">
           </div>
           <div classe="slide-amanda12">
             <img src="jovem-lab/assets/images/amanda12.jpg">
@@ -478,86 +478,139 @@ const DB = {
         tempoLeitura: '10 min',
         autor: 'Turma de Aprendizagem 2026.08.53',
         conteudo: `
-        <section class="equipe"
-          <div class="autores">
-            <div class="kamilly">
-              <img src="jovem-lab/assets/images/kamillyfoto.jpeg" alt="Kamilly">
-                <div class="info-kamilly"
-                  <h2>Dicas de sites para cursos online para acrescentar no currículo</h2>
-                </div>
+        <section class="equipe">
+          <div class="membro"> 
+              <img src="jovem-lab/assets/images/kamillyfoto.jpeg">
+            <div class="info">
+              <h3>Cursos gratuitos para alavancar sua carreira</h3>
             </div>
-            <div class="rebeca">
-              <div class="info-rebeca"  
-                <img src="jovem-lab/assets/images/rebecafoto.jpeg">
-                <h2>Cursos que as empresas mais pedem</h2>
+          </div>
+          <div class="membro"> 
+            <img src="jovem-lab/assets/images/rebecafoto.jpeg">
+            <div class="info">
+              <h3>Quais cursos são mais valorizados pelas empresas</h3>
+            </div>
+          </div>
+          <div class="membro">
+            <img src="jovem-lab/assets/images/arnoldfoto.jpeg">
+            <div class="info">
+              <h3>Dicas de ética no trabalho</h3>
+            </div>
+          </div>
+          <div class="membro">
+            <img src="jovem-lab/assets/images/itallofoto.jpg">
+              <div class="info">
+                <h3>Como encontrar o primeiro emprego e Filmmaker do vídeo de apresentação</h3>
               </div>
+          </div>
+          <div class="membro">
+            <img src="jovem-lab/assets/images/kalebefoto.jpg">
+            <div class="info">
+              <h3>Como se vestir e se portar em uma entrevista</h3>
             </div>
-            <div class="arnold">
-              <div class="info-arnold"
-                <img src="jovem-lab/assets/images/arnoldfoto.jpeg">
-                <h2>Dicas de ética no trabalho</h2>
-              </div>
+          </div>
+          <div class="membro">
+            <img src="jovem-lab/assets/images/davifoto.webp">
+            <div class="info">
+              <h3>Quais cursos são mais valorizados pelas empresas</h3>
             </div>
-            <div class="itallo">
-                <div class="info-itallo"
-                  <img src="jovem-lab/assets/images/itallofoto.jpg">
-                  <h2>Como encontrar o primeiro emprego e Vídeo de apresentação</h2>
-                </div>
-            </div>
-            <div class="kalebe">
-              <img src="jovem-lab/assets/images/kalebefoto.jpg">
-            </div>
-            <div class="davi">
-              <img src="jovem-lab/assets/images/davifoto.webp">
-            </div>
-            <div class="vivian">
+          </div>
+          <div class="membro">
               <img src="jovem-lab/assets/images/vivianfoto.jpg">
+              <div class="info">
+                <h3>Dicas sobre como ter um currículo melhor</h3>
+              </div>
+          </div>
+          <div class="membro">
+             <img src="jovem-lab/assets/images/brunafoto.png">
+            <div class="info">
+              <h3>Cartaz físico, digital para divulgação do projeto e Atriz do vídeo de apresentação</h3>
             </div>
-            <div class="bruna">
-              <img src="jovem-lab/assets/images/brunafoto.jpeg">
+          </div>
+          <div class="membro">
+            <img src="jovem-lab/assets/images/esterfoto.jpeg">
+            <div class="info">
+              <h3>Cartaz físico, digital para divulgação do projeto e Atriz do vídeo de apresentação</h3>
             </div>
-            <div class="ester">
-              <img src="jovem-lab/assets/images/esterfoto.jpeg">
+          </div>
+          <div class="membro">
+            <img src="jovem-lab/assets/images/mariaclarafoto.jpeg">
+            <div class="info">
+              <h3>Como encontrar o primeiro emprego</h3>
             </div>
-            <div class="mariaclara">
-              <img src="jovem-lab/assets/images/mariaclarafoto.jpeg">
+          </div>
+          <div class="membro">
+            <img src="jovem-lab/assets/images/viniciusfoto.webp">
+            <div class="info">
+              <h3>Programador do site e idealizador</h3>
             </div>
-            <div class="vinicius">
-              <img src="jovem-lab/assets/images/viniciusfoto.webp">
+          </div>
+          <div class="membro">
+            <img src="jovem-lab/assets/images/viniciusg.webp">
+            <div class="info">
+              <h3>Como ter controle emocional no trabalho</h3>
             </div>
-            <div class="viniciusg">
-              <img src="jovem-lab/assets/images/viniciusg.webp">
+          </div>
+          <div class="membro">
+            <img src="jovem-lab/assets/images/amandac.jpg">
+            <div class="info">
+              <h3>Curadoria de Cores para o site</h3>
             </div>
-            <div class="amandac">
-              <img src="jovem-lab/assets/images/amandac.jpg">
+          </div>
+          <div class="membro">
+            <img src="jovem-lab/assets/images/gabriellefoto.jpg">
+            <div class="info">
+              <h3>Orientações para processos seletivos</h3>
+            </div> 
+          </div>
+          <div class="membro">
+            <img src="jovem-lab/assets/images/amandav.jpg">
+            <div class="info">
+              <h3>O que fazer na entrevista de emprego</h3>
             </div>
-            <div class="gabrielle">
-              <img src="jovem-lab/assets/images/gabriellefoto.jpg">
+          </div>
+          <div class="membro">
+            <img src="jovem-lab/assets/images/gabryelfoto.png">
+            <div class="info">
+              <h3>Quais cursos são mais valorizados pelas empresas</h3>
             </div>
-            <div class="amandav">
-              <img src="jovem-lab/assets/images/amandav.jpg">
+          </div>
+          <div class="membro">
+            <img src="jovem-lab/assets/images/analuizafoto.webp">
+            <div class="info">
+              <h3>Quais cursos são mais valorizados pelas empresas</h3>
             </div>
-            <div class="gabryel">
-              <img src="jovem-lab/assets/images/gabryelfoto.png">
+          </div>
+          <div class="membro">
+            <img src="jovem-lab/assets/images/anaclarafoto.jpg">
+            <div class="info">
+              <h3>Dicas de ética no trabalho</h3>
             </div>
-            <div class="analuiza">
-              <img src="jovem-lab/assets/images/analuizafoto.webp">
+          </div>
+          <div class="membro">
+            <img src="jovem-lab/assets/images/victorfoto.jpeg">
+            <div class="info">
+              <h3>Quiz sobre empregabilidade</h3>
             </div>
-            <div class="anaclara">
-              <img src="jovem-lab/assets/images/anaclarafoto.jpg">
+          </div>
+          <div class="membro">
+            <img src="jovem-lab/assets/images/lucasfoto.jpeg">
+            <div class="info">
+              <h3>Mentir no currículo vale a pena?</h3>
             </div>
-            <div class="victor">
-              <img src="jovem-lab/assets/images/victorfoto.jpeg">
+          </div>
+          <div class="membro">
+            <img src="jovem-lab/assets/images/luizfoto.jpg">
+            <div class="info">
+              <h3>Quiz sobre empregabilidade</h3>
             </div>
-            <div class="lucas">
-                <img src="jovem-lab/assets/images/lucasfoto.jpeg">
+          </div>
+          <div class="membro">
+            <img src="jovem-lab/assets/images/isaacfoto.jpeg">
+            <div class="info">
+              <h3>6 Profissões em alta</h3>
             </div>
-            <div class="luiz">
-              <img src="jovem-lab/assets/images/luizfoto.jpg">
-            </div>
-            <div class="isaac">
-              <img src="jovem-lab/assets/images/isaacfoto.jpeg">
-            </div>
+          </div>
         `
       },
     ];
