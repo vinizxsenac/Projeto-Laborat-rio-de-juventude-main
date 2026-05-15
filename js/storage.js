@@ -522,7 +522,7 @@ const DB = {
               </div>
           </div>
           <div class="membro">
-             <img src="jovem-lab/assets/images/brunafoto.png">
+             <img src="jovem-lab/assets/images/Brunafoto.jpeg">
             <div class="info">
               <h3>Cartaz físico, digital para divulgação do projeto e Atriz do vídeo de apresentação</h3>
             </div>
